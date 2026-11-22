@@ -1,7 +1,17 @@
 # aica-mend
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-hidden--spec--cli-blue)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/yudi04cod/aica-mend/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/yudi04cod/aica-mend/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
 
-mend: one command-line tool that applies AI-written edits in four formats — unified diffs (even with wrong line numbers), SEARCH/REPLACE blocks, V4A patches, and JSON tool-call edits — to a tree of text files, to the specification in the kit's SPEC.md. It finds the lines an edit names at the first of three matching tiers (exact, trailing whitespace, full whitespace), and writes every change or none. Node 22, standard library only. Run as `node main.ts [options] [PATCH]`.
+mend is a Node 22 CLI, standard library only, that applies AI-written patches in four formats — unified diff, SEARCH/REPLACE, V4A, and JSON edits — to the SPEC.md tree, atomically: every change is written, or none is.
 
-Entry for make.fun. Referral code: 38m33ybw
+## Run it
+
+```sh
+node main.ts [options] [PATCH]
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=38m33ybw&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
